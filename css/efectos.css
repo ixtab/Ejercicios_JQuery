@@ -1,0 +1,29 @@
+body {
+    padding-left: 300px;
+}
+
+.centrado {
+    width: 400px;
+    text-align: center;
+}
+
+#caja,
+#caja2 {
+    height: 50px;
+    border: 5px double black;
+    background: #888;
+    color: whitesmoke;
+    margin-top: 10px;
+    line-height: 50px;
+    font-size: 19px;
+    font-family: 'Courier New', Courier, monospace;
+    display: none;
+}
+
+#ocultar {
+    display: none;
+}
+
+.altura {
+    height: 120px;
+}

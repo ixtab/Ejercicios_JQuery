@@ -1,0 +1,19 @@
+body {
+    padding-left: 300px;
+}
+
+#titulo {
+    text-shadow: 1px 1px 2px green;
+}
+
+.centrado {
+    width: 400px;
+    text-align: center;
+}
+
+#datos {
+    width: 250px;
+    box-shadow: 1px 1px 2px green;
+    margin-left: 75px;
+    padding-top: 0.5em;
+}

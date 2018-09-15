@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>jQuery</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        .borde {
+            border: 2px solid black;
+        }
+        
+        .grande {
+            font-size: 30px;
+        }
+        
+        .margen-superior {
+            display: block !important;
+            margin-top: 50px;
+        }
+        
+        .resaltado {
+            font-weight: bold;
+        }
+    </style>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/01-selectores.js"></script>
+</head>
+
+<body>
+    <h1>jQuery</h1>
+    <h2 title="Probando">Probando</h2>
+
+    <ul>
+        <li>
+            <a href="https://www.youtube.com/" title="videos">Youtube</a>
+        </li>
+        <li>
+            <a href="https://www.netflix.com/browse" title="videos">Netflix</a>
+        </li>
+        <li>
+            <a href="https://www.plusdede.com/" title="videos">Plusdede</a>
+        </li>
+        <li>
+            <a href="https://www.primevideo.com/" title="videos">Amazon Prime Video</a>
+        </li>
+        <li>
+            <a href="https://es.hboespana.com/" title="videos">HBO</a>
+        </li>
+    </ul>
+
+    <p>Ejercicios de jQuery</p>
+    <p id="rojo" class="grande borde">Parrafo Rojo</p>
+    <p id="azul" class="grande ">Parrafo Azul</p>
+    <p id="verde">Parrafo Verde</p>
+
+    <div id="caja">
+        <p class="resaltado">Soy una Caja</p>
+        <ul>
+            <li>Elemento 1</li>
+            <li id="elemento2" class="resaltado">Elemento 2</li>
+        </ul>
+
+    </div>
+
+
+</body>
+
+</html>
